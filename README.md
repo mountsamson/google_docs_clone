@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Link to the project: https://livedocs-kappa.vercel.app/sign-in
 
-## Getting Started
+Live Docs is an advanced SaaS document management platform designed to enhance real-time collaboration. Much like Google Docs, Live Docs allows multiple users to edit, comment, and manage documents simultaneously from any device with internet access.
 
-First, run the development server:
+One of the standout features of Live Docs is its seamless integration with Clerk, which provides robust user authentication and management. This integration ensures that users can easily sign in, manage permissions, and secure their accounts, all while maintaining a smooth and efficient collaboration experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Additionally, Live Docs incorporates Liveblocks, which facilitates real-time synchronization across all collaborators. This ensures that changes made by one user are instantly reflected for all others, reducing the chances of version conflicts and improving overall workflow efficiency.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The platform features a user-friendly interface that supports real-time editing, where each contributor's changes are color-coded for clarity. The commenting system allows users to leave feedback directly on specific parts of the document, and the mentions feature ensures that relevant team members are promptly notified of important updates.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Sharing documents is straightforward, with customizable permissions to control who can view, comment on, or edit the content. This flexibility allows teams to collaborate securely while maintaining control over sensitive information.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Overall, Live Docs combines essential collaboration features with powerful integrations, providing a comprehensive solution for teams and individuals seeking an efficient and secure document management system.
 
-## Learn More
+Home Page
+![image](https://github.com/user-attachments/assets/596ecc64-a3fe-4946-b83f-140937d0a610)
 
-To learn more about Next.js, take a look at the following resources:
+Sign In
+![image](https://github.com/user-attachments/assets/b882e25b-0c0f-415c-9edf-7b026cb77632)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Document Page 
+![image](https://github.com/user-attachments/assets/dfdcec7f-ca07-4b54-b559-c58951867b6a)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Share Page
+![image](https://github.com/user-attachments/assets/351e2b80-e69f-47e0-a1d4-9693168440ac)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
